@@ -4,7 +4,7 @@
 Downturn is a variation on Connect 4 such that board rotations are allowed and
 gravity is assumed on the pieces (they fall to the bottom-most available row).
 The idea of the game is by Professor Wachs at UChicago.
-
+ - Uses ASCII characters for board display in the shell
  - `make clean` to remove all executables
 
 ## Files:
