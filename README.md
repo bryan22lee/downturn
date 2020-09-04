@@ -18,10 +18,10 @@ The idea of the game is by Professor Wachs at UChicago.
 
 ## Set-up:
  - `make downturn` to create the executable, called **downturn**
- - `./downturn` to run the executable with some *command-line options*:
-   - `-w x -h y -r z` where x, y, z should be replaced with integer values
-     - The value after `-w` (x) specifies width, the value after `-h` (y) specifies height,
-       and the value after `r` (z) specifies the number of pieces in a row to win
+ - `./downturn` to run the executable with *additional flags*:
+   - `-w <width> -h <height> -r <run>` where `<width>`, `<height>`, and `<run>` should be replaced with integer values
+     - `<width>` specifies board width, `<height>` specifies board height,
+       and `<run>` specifies the number of pieces in a straight line needed to win (as in Connect 4)
    - Additionally, you must add `-m` (matrix) or `-b` (bits) flags to specify whether you 
      want to run downturn in the *matrix* or *bits* implementation
  - Black starts first. At the prompt, specify a column number to drop a piece into that column.
