@@ -25,7 +25,7 @@ The idea of the game is by Professor Wachs at UChicago.
    - Additionally, you must add `-m` (matrix) or `-b` (bits) flags to specify whether you 
      want to run downturn in the *matrix* or *bits* implementation
  - Black starts first. At the prompt, specify a column number to drop a piece into that column.
-   - In ASCII, black is represented by `*` and white is represented by `o`
+   - In ASCII, black is represented by character `*` and white is represented by character `o`
  - Or, you can rotate the board *counterclockwise* with `<`, *clockwise* with `>`
 
 ## Tests:
